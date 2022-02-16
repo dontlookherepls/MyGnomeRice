@@ -10,7 +10,7 @@
 >- Shell: zsh + [omz](https://ohmyz.sh/)
 >- GTK-Theme: [Catppuccin](https://github.com/catppuccin/gtk)
 >- Font: JetBrainsMono Nerd Font for terminal, Product Sans
->- Launcher: rofi 32
+>- Launcher: [rofi](https://github.com/adi1090x/rofi)
 ---
 ### My extensions:
 
