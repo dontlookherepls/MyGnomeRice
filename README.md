@@ -3,7 +3,7 @@
 ![](https://raw.githubusercontent.com/LucaErr/MyGnomeRice/main/pictures/with%20pop.png?token=GHSAT0AAAAAABRTSBWAN535GZ4RYFQ4I64AYQNJCAQ)
 
 ---
-### Here's what i had use:
+### Here's what i used:
 >- OS: Arch Linux ![](https://i.imgur.com/kG788YU.png)
 >- Desktop Enviroment: GNOME41.3
 >- WM: [mutter-rounded](https://github.com/yilozt/mutter-rounded) with [pop shell](https://github.com/pop-os/shell)
