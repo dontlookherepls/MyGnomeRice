@@ -1,4 +1,4 @@
-# Gnome Rice
+# Catpuccin + Dracula -> ❤️
 
 ![plot](https://raw.githubusercontent.com/LucaErr/MyGnomeRice/main/pictures/with%20pop.png?token=GHSAT0AAAAAABRTSBWAEU6JGCOFFV3RYL2GYQNJOZA)
 
