@@ -1,13 +1,13 @@
 # Catpuccin + Dracula = ❤️
 
-![plot](https://raw.githubusercontent.com/LucaErr/MyGnomeRice/main/pictures/with%20pop.png?token=GHSAT0AAAAAABRTSBWAEU6JGCOFFV3RYL2GYQNJOZA)
+![plot](https://i.imgur.com/27MKVGb.png)
 
 ---
 ### Here's what i used:
 >- OS: Arch Linux ![](https://i.imgur.com/kG788YU.png)
 >- Desktop Enviroment: GNOME41.3
 >- WM: [mutter-rounded](https://github.com/yilozt/mutter-rounded) with [pop shell](https://github.com/pop-os/shell)
->- Terminal: Alacritty ![](https://raw.githubusercontent.com/LucaErr/MyGnomeRice/main/pictures/ala.png?token=GHSAT0AAAAAABRTSBWAMMIRCHPS5Q7FG4GYYQNJNDQ)
+>- Terminal: Alacritty ![](https://i.imgur.com/CLIcWjU.png)
 >- Shell: zsh + [omz](https://ohmyz.sh/)
 >- GTK-Theme: [Catppuccin](https://github.com/catppuccin/gtk)
 >- Font: JetBrainsMono Nerd Font for terminal, Product Sans
@@ -15,7 +15,7 @@
 ---
 ### My extensions:
 
-> ![plot](https://raw.githubusercontent.com/LucaErr/MyGnomeRice/main/pictures/extension.png?token=GHSAT0AAAAAABRTSBWBG5SEBVFONCZ2KEGKYQNJNYA)
+> ![plot](https://i.imgur.com/7qBZM4R.png)
 ---
 ### Tweaks:
-> ![plot](https://raw.githubusercontent.com/LucaErr/MyGnomeRice/main/pictures/tweaks.png?token=GHSAT0AAAAAABRTSBWBFYN6XHPFJBB27QA6YQNJOJA)
+> ![plot](https://i.imgur.com/4IPDk6i.png)
