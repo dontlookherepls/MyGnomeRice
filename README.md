@@ -12,6 +12,7 @@
 >- GTK-Theme: [Catppuccin](https://github.com/catppuccin/gtk)
 >- Font: JetBrainsMono Nerd Font for terminal, Product Sans
 >- Launcher: [rofi](https://github.com/adi1090x/rofi)
+>- Icon Pack: Dracula icons
 ---
 ### My extensions:
 
