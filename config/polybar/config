@@ -85,8 +85,8 @@ modules-right = pulseaudio wlan eth temperature date powermenu
 
 #BAR 
 bottom = true
-width = 10%
-height = 20
+width = 14%
+height = 25
 radius = 6.0
 fixed-center = false
 modules-left = battery
@@ -161,16 +161,13 @@ label-connected = %essid%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
 
 [module/eth]
 type = internal/network
@@ -248,21 +245,20 @@ format-full-prefix = " "
 format-full-prefix-foreground = #161320
 format-full-underline = #161320
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = #161320
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = #161320
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = #161320
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+
 animation-discharging-framerate = 750
 
 [module/temperature]
