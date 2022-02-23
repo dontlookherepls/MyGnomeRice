@@ -1,6 +1,6 @@
-# Catpuccin + Dracula = ❤️
+#  Trasforming Gnome with Catpuccin
 
-![plot](https://i.imgur.com/27MKVGb.png)
+![plot](https://i.imgur.com/swAcMbZ.png)
 
 ---
 ### Here's what i used: WORK IN PROGRESS
@@ -8,13 +8,13 @@
 >- Desktop Enviroment: GNOME41.3
 >- WM: [mutter-rounded](https://github.com/yilozt/mutter-rounded) with [pop shell](https://github.com/pop-os/shell)
 >- Terminal: Alacritty ![](https://i.imgur.com/CLIcWjU.png)
->- Shell: zsh + [omz](https://ohmyz.sh/)
->- Font: JetBrainsMono Nerd Font for terminal, Product Sans
->- Launcher: [rofi](https://github.com/adi1090x/rofi)
+>- Bar : polybar
+>- SOON I'M GOING TO ADD ROFI 
 ---
-### My extensions:
+### My extensions: (no more in use)
 
 > ![plot](https://i.imgur.com/7qBZM4R.png)
+
 ---
 ### Tweaks:
 > ![plot](https://i.imgur.com/4IPDk6i.png)
