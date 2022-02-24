@@ -9,7 +9,7 @@
 >- WM: [mutter-rounded](https://github.com/yilozt/mutter-rounded) with [pop shell](https://github.com/pop-os/shell)
 >- Terminal: Alacritty ![](https://i.imgur.com/CLIcWjU.png)
 >- Bar :  polybar
->- SOON I'M GOING TO ADD ROFI IN MY WORKFLOW
+>- Luancher: Rofi
 
 
 # Rofi
