@@ -8,13 +8,9 @@
 >- Desktop Enviroment: GNOME41.3
 >- WM: [mutter-rounded](https://github.com/yilozt/mutter-rounded) with [pop shell](https://github.com/pop-os/shell)
 >- Terminal: Alacritty ![](https://i.imgur.com/CLIcWjU.png)
->- Bar : polybar
->- SOON I'M GOING TO ADD ROFI 
----
-### My extensions: (no more in use)
+>- Bar :  polybar
+>- SOON I'M GOING TO ADD ROFI IN MY WORKFLOW
 
-> ![plot](https://i.imgur.com/7qBZM4R.png)
 
----
-### Tweaks:
-> ![plot](https://i.imgur.com/4IPDk6i.png)
+# Rofi
+> ![plot](https://github.com/LucaErr/MyGnomeRice/blob/main/pictures/rofi.gif?raw=true)
