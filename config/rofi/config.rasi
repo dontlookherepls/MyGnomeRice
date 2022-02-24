@@ -1,0 +1,47 @@
+configuration {
+    display-drun: "Open:";
+	font: "JetBrainsMono Nerd Font Mono 10 ";
+}
+
+@theme "/dev/null"
+
+
+* {
+    background-color:  transparent;
+    text-color:           #DDB6F2;
+}
+window {
+    anchor:     south east;
+    location:   south east;
+    width:      30%;
+    padding:    4px;
+    x-offset:   -2px;
+    y-offset:   -2px;
+    children:   [ horibox ];
+    border-radius: 4px;
+
+
+}
+horibox {
+    orientation: horizontal;
+    children:   [ prompt, entry, listview ];
+}
+listview {
+    layout:     horizontal;
+    spacing:    7px;
+    lines:      100;
+}
+entry {
+    expand:     false;
+    width:      10em;
+}
+element {
+    padding: 0px 2px;
+}
+
+element-text, element-icon {
+  text-color: inherit;
+}
+
+
+//Ps: i fucing hate rofi
