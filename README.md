@@ -1,4 +1,4 @@
-#  Trasforming Gnome with Catpuccin
+#  Transforming Gnome with Catpuccin
 
 ![plot](https://i.imgur.com/swAcMbZ.png)
 
