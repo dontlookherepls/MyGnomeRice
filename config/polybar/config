@@ -1,10 +1,4 @@
-;========================================================================================================================================
-;
-;
-;
-;
-;                                                                                                                                             
-;                                                                                                                                               
+;========================================================================================================================================                                                                                                                                     
 ;
 ;_____                               _____ 
 ;/     \ ___.__.   ____  ____   _____/ ____\
@@ -12,16 +6,7 @@
 ;/    Y    \___  | \  \__(  <_> )   |  \  |   
 ;\____|__  / ____|  \___  >____/|___|  /__|   
 ;      \/\/           \/           \/       
-;     
-;                                                                                                                                               
-;                                                                                                                                               
-;                                                                                                                                              
-;                                                                                                                                               
-;                                                                                                                                              
-;                                                                                                                                               
-;                                                                                                                                                                                                                                                                                                                                                                       
-;                                                                                                                                                                                                                                                                                                                                                                       
-;                                                                                                                                                                                                                                                                                                                                                                       
+;                                                                                                                                                                                                                                                                                                                                                               
 ;========================================================================================================================================
 
 [colors]
@@ -32,273 +17,38 @@ foreground-alt = #90282a36
 alert = #ff5555
 
 [bar/top]
-
-#Bar size
-width = 100%
-height = 27
-radius = 6.0
-
-
-
-
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-line-size = 3
-line-color = #f00
-
-border-size = 4
-border-color = #00000000
-border-bottom-size = 0
-
-
-padding-left = 0
-padding-right = 2
-
-module-margin-left = 1
-module-margin-right = 2
-module-right = workspaces
-
-#FONTS
-font-0 = ProductSans:size=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
-font-3 = FontAwesome6Free:style=Solid:size=10;2
-font-4 = FontAwesome6Free:style=Regular:size=10;2
-font-5 = FontAwesome6Brands:style=Regular:size=10;2
-
-#Modules
-modules-left = workspaces
-modules-right = pulseaudio temperature wlan eth date powermenu
-
-
-
-;cursor-click = pointer
-;cursor-scroll = ns-resize
-
+    include-file = /home/NAME/.config/polybar/modules/top.ini
 [bar/bottom]
-
-#BAR 
-bottom = true
-width = 14%
-height = 25
-radius = 6.0
-fixed-center = false
-modules-left = battery
-background = ${colors.background}
-foreground = ${colors.foreground}
-
-# TRAY POSITION
-tray-position = center
-tray-padding = 10
-tray-background = ${colors.background}
-padding-left = 2
-padding-right = 2
-
-#BAR SIZE
-line-size = 3
-line-color = #f00
-border-size = 4
-border-color = #00000000
-
-#FONTS
-font-0 = ProductSans:size=10;1
-font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=10;1
-font-3 = FontAwesome6Free:style=Solid:size=10;2
-font-4 = FontAwesome6Free:style=Regular:size=10;2
-font-5 = FontAwesome6Brands:style=Regular:size=10;2
-
+    include-file = /home/NAME/.config/polybar/modules/bottom.ini
+[bar/center]
+    include-file = /home/NAME/.config/polybar/modules/center.ini
+[bar/topright]
+    include-file = /home/NAME/.config/polybar/modules/topright.ini
 [module/workspaces]
-
-type = internal/xworkspaces
-
-pin-workspaces = true
-enable-click = true
-enable-scroll = true
-
-#ICONS
-icon-0 = 1;
-icon-1 = 2;
-icon-2 = 3;
-icon-3 = 4;
-icon-4 = 5;
-icon-5 = 6;
-icon-6 = 7;
-icon-7 = 8;
-
-icon-default = 
-
-#LABELS
-format = <label-state>
-label-active-underline = #ABE9B3
-format-padding = 0
-label-active = %icon%
-label-occupied = %icon%
-label-urgent = %icon%
-label-empty = %icon%
-label-active-padding = 4
-label-urgent-padding = 4
-label-occupied-padding = 4
-label-empty-padding = 4
-
-
-
+    include-file = /home/NAME/.config/polybar/modules/workpaces.ini
 [module/wlan]
-type = internal/network
-interface = wlp4s0
-interval = 3.0
-
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
-label-connected = %essid%
-ramp-signal-foreground = #96CDFB
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-
-[module/eth]
-type = internal/network
-interface = enp0s25
-interval = 3.0
-
-format-connected-underline = #9f78e1
-format-connected-prefix = ""
-format-connected-prefix-foreground = #96CDFB
-label-connected = %local_ip%
-
+    include-file = /home/NAME/.config/polybar/modules/wlan.ini
+;[module/eth]
+    ;include-file = /home/NAME/.config/polybar/modules/eth.ini
 [module/date]
-type = internal/date
-interval = 5
-
-date =
-date-alt = " %Y-%m-%d"
-
-time = %H:%M
-time-alt = %H:%M:%S
-
-format-prefix = 
-format-prefix-foreground = #161320
-format-underline = #9f78e1
-
-label = %date% %time%
-
+    include-file = /home/NAME/.config/polybar/modules/date.ini
 [module/pulseaudio]
-type = internal/pulseaudio
-
-format-volume = <label-volume> <bar-volume>
-label-volume = VOL %percentage%%
-label-volume-foreground = ${root.foreground}
-
-label-muted =  muted
-label-muted-foreground = #f8f8f2
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = /
-bar-volume-indicator-font = 1
-bar-volume-fill = =
-bar-volume-fill-font = 1
-bar-volume-empty = =
-bar-volume-empty-font = 1
-bar-volume-empty-foregroUnd = ${colors.foreground-alt}
-
-
+    include-file = /home/NAME/.config/polybar/modules/pulseaudio.ini
 [module/battery]
-type = internal/battery
-battery = BAT0
-adapter = AC
-full-at = 98
-
-format-charging = <animation-charging> <label-charging>
-format-charging-underline = #DDB6F2
-
-format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
-
-format-full-prefix = " "
-format-full-prefix-foreground = #161320
-format-full-underline = #161320
-
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-
-
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-framerate = 750
-
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-
-animation-discharging-framerate = 750
-
+    include-file = /home/NAME/.config/polybar/modules/battery.ini
 [module/temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 70
-
-format = <ramp> <label>
-format-underline = #F28FAD
-format-warn = <ramp> <label-warn>
-format-warn-underline = #161320
-
-label = %temperature-c%
-label-warn = %temperature-c%
-label-warn-foreground = #161320
-
-ramp-0 =  
-ramp-1 = 
-ramp-2 = 
-ramp-foreground = #161320
-
+    include-file = /home/NAME/.config/polybar/modules/temperature.ini
 [module/powermenu]
-type = custom/menu
-
-expand-right = true
-
-format-spacing = 1
-
-label-open = 
-label-close =  
-label-separator = |
-
-
-menu-0-0 = reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
-menu-1-1-exec = reboot
-
-menu-2-0 = power off
-menu-2-0-exec = poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
-
+    include-file = /home/luca/.config/polybar/modules/powermenu.ini 
+[module/polywins]
+    include-file = /home/NAME/.config/polybar/modules/polywins.ini 
+[module/wallpaper]
+type = custom/script
+exec = echo ">>"
+click-left = feh -z --bg-fill /home/NAME/Pictures/Wallpapers
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
 pseudo-transparency = false
 
 [global/wm]

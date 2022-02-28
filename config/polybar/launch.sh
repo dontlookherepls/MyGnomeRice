@@ -9,8 +9,8 @@ while pgrep -x polybar >/dev/null; do sleep 1; done
 # Launch
 polybar top &
 polybar bottom &
-# feh --bg-scale /home/luca/Pictures/Wallpapers/evening-sky.png &
-
+polybar topright &
+polybar center &
 echo "Bar launched..."
 
 # remember: chmod u+x ./launch.sh
