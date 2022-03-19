@@ -1,6 +1,6 @@
 #  Gnome + Catpuccin + Dracula + Polybar
 
-![plot](https://i.imgur.com/swAcMbZ.png)
+![plot](https://i.redd.it/9plp2169pmk81.png)
 ---
 ### Here's what i used: WORK IN PROGRESS
 >- OS: Arch Linux ![](https://i.imgur.com/kG788YU.png)
