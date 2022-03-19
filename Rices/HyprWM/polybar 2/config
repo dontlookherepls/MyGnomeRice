@@ -25,8 +25,8 @@ alert = #ff5555
     include-file = /home/luca/.config/polybar/modules/center.ini
 [bar/topright]
     include-file = /home/luca/.config/polybar/modules/topright.ini
-[module/workspaces]
-    include-file = /home/luca/.config/polybar/modules/workspaces.ini
+;[module/workspaces]
+ ;include-file = /home/luca/.config/polybar/modules/workspaces.ini
 [module/date]
     include-file = /home/luca/.config/polybar/modules/date.ini
 [module/ewmh]

@@ -11,14 +11,13 @@
 
 [colors]
 background = #90282a36
-;background = #1E1E2E	
 background-alt = #caa9fa
 foreground = #f8f8f2
 foreground-alt = #90282a36
 alert = #ff5555
 
-;[bar/top]
-  ; include-file = /home/luca/.config/polybar/modules/top.ini
+[bar/top]
+    include-file = /home/luca/.config/polybar/modules/top.ini
 [bar/bottom]
     include-file = /home/luca/.config/polybar/modules/bottom.ini
 [bar/center]
@@ -26,11 +25,13 @@ alert = #ff5555
 [bar/topright]
     include-file = /home/luca/.config/polybar/modules/topright.ini
 [module/workspaces]
-    include-file = /home/luca/.config/polybar/modules/workspaces.ini
+    include-file = /home/luca/.config/polybar/modules/workpaces.ini
+[module/wlan]
+    include-file = /home/luca/.config/polybar/modules/wlan.ini
+;[module/eth]
+    ;include-file = /home/luca/.config/polybar/modules/eth.ini
 [module/date]
     include-file = /home/luca/.config/polybar/modules/date.ini
-[module/ewmh]
-    include-file = /home/luca/.config/polybar/modules/ewmh.ini
 [module/pulseaudio]
     include-file = /home/luca/.config/polybar/modules/pulseaudio.ini
 [module/battery]
@@ -41,9 +42,11 @@ alert = #ff5555
     include-file = /home/luca/.config/polybar/modules/powermenu.ini 
 [module/polywins]
     include-file = /home/luca/.config/polybar/modules/polywins.ini 
-[module/title]
-    include-file = /home/luca/.config/polybar/modules/xwindow.ini
-    
+[module/wallpaper]
+type = custom/script
+exec = echo ">>"
+click-left = feh -z --bg-fill /home/luca/Pictures/Wallpapers
+
 [module/placeholder]
 # Just a dummy module as polybar always requires at least one amodule
 type = custom/script
