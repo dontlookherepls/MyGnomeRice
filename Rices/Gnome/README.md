@@ -13,4 +13,4 @@
 
 
 # Rofi
-> ![](https://github.com/LucaErr/MyGnomeRice/blob/main/pictures/rofi.gif?raw=true)
+> ![](https://raw.githubusercontent.com/LucaErr/MyGnomeRice/main/Rices/Gnome/pictures/rofi.gif)
